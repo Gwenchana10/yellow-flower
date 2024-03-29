@@ -26,3 +26,4 @@ if __name__ == "__main__":
     main()
 print("Hello")
 print("Everyone")
+print("Welcome")
