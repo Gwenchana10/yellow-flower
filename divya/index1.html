@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Rapid Repairs</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <section class="container">
+        <header>Registration Form
+            <br>
+        <p>
+        <a href="home.html">Home</a>/
+        <a href="createaccount.html">Create Account</a>
+        </p>
+        </header>
+        <form action="#" class="form" onsubmit="return registerUser()">
+            <div class="input-box">
+                <label>Full Name</label>
+                <input type="text" id="fullname" placeholder="Enter full name" required>
+            </div>
+
+            <div class="input-box">
+                <label>Email Address</label>
+                <input type="email" id="email" placeholder="Enter email address" required>
+            </div>
+
+            <div class="column">
+                <div class="input-box">
+                    <label>Phone Number</label>
+                    <input type="tel" id="phone" placeholder="Enter phone number" required>
+                </div>
+                <div class="input-box">
+                    <label>Birth Date</label>
+                    <input type="date" id="birthdate" required>
+                </div>
+            </div>
+            
+            <div class="role-box">
+                <h3>Are you a customer or service provider</h3>
+                <div class="role-option">
+                    <div class="role">
+                        <input type="radio" id="check-customer" name="role" value="customer" checked>
+                        <label for="check-customer">Customer</label>
+                    </div>
+                    <div class="role">
+                        <input type="radio" id="check-serviceprovider" name="role" value="serviceprovider">
+                        <label for="check-serviceprovider">Service Provider</label>
+                    </div>
+                </div>
+            </div>
+         
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <script>
+        function registerUser() {
+            var role = document.querySelector('input[name="role"]:checked').value;
+            if (role === "customer") {
+                // Redirect to home page for customer
+                window.location.href = "home.html";
+            } else if (role === "serviceprovider") {
+                // Redirect to page for additional details for service provider
+                window.location.href = "serviceproviderindex.html";
+            }
+            return false; // Prevent form submission
+        }
+    </script>
+</body>
+</html>

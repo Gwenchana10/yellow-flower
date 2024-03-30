@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<!---Coding By CodingLab | www.codinglabweb.com--->
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!--<title>Registration Form in HTML CSS</title>-->
+    <!---Custom CSS File--->
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<section class="container">
+    <header>Registration Form 
+        <br>
+        <p>
+        <a href="home.html">Home</a>/
+        <a href="createaccount.html">Create Account</a>
+        </p>
+    </header>
+    <form id="registrationForm" class="form">
+        <div class="input-box">
+            <label>Field of Work</label>
+            <div class="select-box">
+                <select required>
+                    <option hidden>Select Field of Work</option>
+                    <option>Painting</option>
+                    <option>Electrical</option>
+                    <option>Plumbing</option>
+                    <option>Carpentry</option>
+                    <option>Cleaning</option>
+                    <option>Roofing Repairs</option>
+                    <option>Other</option>
+                </select>
+            </div>
+        </div>
+        <div class="input-box">
+            <label>Qualification</label>
+            <input type="text" placeholder="Enter your Qualification" required />
+        </div>
+
+        <div class="column">
+            <div class="input-box">
+                <label>Years of Experience</label>
+                <input type="number" placeholder="Enter years of experience" required />
+            </div>
+            <div class="input-box">
+                <label>Birth Date</label>
+                <input type="date" placeholder="Enter birth date" required />
+            </div>
+        </div>
+        
+        <div class="input-box address">
+            <label>Address</label>
+            <div class="column">
+                <div class="select-box">
+                    <select required>
+                        <option hidden>Select District</option>
+                        <option>Alappuzha</option>
+                        <option>Ernakulam</option>
+                        <option>Idukki</option>
+                        <option>Kannur</option>
+                        <option>Kasaragod</option>
+                        <option>Kollam</option>
+                        <option>Kottayam</option>
+                        <option>Kozhikode</option>
+                        <option>Malappuram</option>
+                        <option>Palakkad</option>
+                        <option>Pathanamthitta</option>
+                        <option>Thiruvananthapuram</option>
+                        <option>Thrissur</option>
+                        <option>Wayanad</option>
+                    </select>
+                </div>
+                
+                <input type="text" placeholder="Enter your city" required />
+            </div>
+            <div class="column">
+                <input type="text" placeholder="Enter your region" required />
+                <input type="number" placeholder="Enter postal code" required />
+            </div>
+        </div>
+
+        <button type="button" onclick="submitForm()">Submit</button>
+    </form>
+</section>
+
+<script>
+    function submitForm() {
+        // Redirect to home.html
+        window.location.href = "home.html";
+    }
+</script>
+
+</body>
+</html>
