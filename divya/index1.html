@@ -5,16 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Registration Form</title>
+    <title>Sign-up</title>
     <link rel="stylesheet" href="style.css" />
 </head>
 <body>
     <section class="container">
-        <header>Registration Form
+        <header>Sign-up
             <br>
         <p>
         <a href="home.html">Home</a>/
-        <a href="createaccount.html">Create Account</a>
+        <a href="createaccount.html">Sign-in</a>
         </p>
         </header>
         <form action="#" class="form" onsubmit="return registerUser()">
@@ -54,7 +54,7 @@
             </div>
          
 
-            <button type="submit">Submit</button>
+            <button type="next">Next</button>
         </form>
     </section>
 
@@ -63,7 +63,7 @@
             var role = document.querySelector('input[name="role"]:checked').value;
             if (role === "customer") {
                 // Redirect to home page for customer
-                window.location.href = "../ann/home.html";
+                window.location.href = "password.html";
             } else if (role === "serviceprovider") {
                 // Redirect to page for additional details for service provider
                 window.location.href = "serviceproviderindex.html";
