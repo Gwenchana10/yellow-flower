@@ -21,6 +21,8 @@ label.logo{
     padding: 0 100px;
     font-weight: bold;
 }
+    
+
 nav ul{
     float: right;
     margin-right: 20px;
@@ -59,7 +61,7 @@ a.active,a:hover{
     font-family: 'Times New Roman';
     font-size: 50px;
     padding-left: 20px;
-    margin-top: 9%;
+    margin-top: 5%;
     letter-spacing: 2px;
 }
 
