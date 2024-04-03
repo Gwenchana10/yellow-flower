@@ -1,0 +1,99 @@
+
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fbe6e6;
+}
+
+header {
+    background-color: #2e0035;
+    color: #ffffff;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+nav {
+    background: #2e0035;
+    height: 13%; /* Fixed height */
+    width: 100%; /* Adjusted width to occupy 80% of the screen */
+    margin: 0 auto; /* Center the nav bar horizontally */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #d454b0;
+    font-size: 4vw; /* Adjusted font size using percentage of viewport width */
+    padding: 0 2%; /* Adjusted padding */
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    margin: 0; /* Reset margin */
+    margin-right: 20px; /* Adjusted spacing between menu items */
+}
+
+nav ul li:last-child {
+    margin-right: 0; /* No margin for the last menu item */
+}
+
+nav ul li a {
+    color: #f7f3f3;
+    font-size: 1.5vw; /* Adjusted font size using percentage of viewport width */
+    border-radius: 5px;
+    padding: 10px 20px; /* Adjusted padding */
+    transition: background-color 0.5s;
+}
+
+nav ul li a:hover {
+    background: #8a1e6b;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+section p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+footer {
+    background-color: #2e0035;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    font-size: 18px;
+}
