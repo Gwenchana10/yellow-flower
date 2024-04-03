@@ -8,7 +8,8 @@ body{
   font: weight 300px;;
   font-style: normal;
 }
-background-image: url("https://www.vettedbiz.com/wp-content/uploads/2019/11/home-services.jpg");
+/*background-image: url("https://www.vettedbiz.com/wp-content/uploads/2019/11/home-services.jpg");*/
+  background-color:  #fbe6e6;
 }
 
 form{
@@ -20,7 +21,7 @@ form{
   color:whitesmoke;
   backdrop-filter: blur(16px) saturate(180%);
   -webkit-backdrop-filter: blur(16px) saturate(180%);
-  background-color: rgba(11, 15, 13, 0.582);
+  background-color: rgba(189, 83, 185, 0.582);
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.125);
 }
@@ -77,7 +78,7 @@ button:hover {
 }
 
 .buttons button, .buttons a {
-  background-color: #000000;
+  background-color: #ac22ae;
   color: white;
   padding: 10px 18px;
   border-radius: 5px;
@@ -88,4 +89,24 @@ button:hover {
 .buttons button:hover, .buttons a:hover {
   opacity: 0.6;
   cursor: pointer;
+}
+
+
+.lin p {
+  color: rgb(27, 27, 44);
+  text-decoration: none;
+  margin-right: 10px;
+ /* font-weight: bold;*/
+  font-size: 0.75rem; /* Adjust font size for links */
+  /*text-align: center;*/
+}
+.lin p a{
+  color: rgb(27, 27, 44);
+  text-decoration: none;
+  margin-right: 10px;
+ /* font-weight: bold;*/
+  font-size: 0.75rem; /* Adjust font size for links */
+}
+.lin a:hover {
+  color: darkblue;
 }

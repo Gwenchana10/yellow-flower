@@ -12,7 +12,7 @@ body {
   align-items: center;
   justify-content: center;
   padding: 20px;
-  background: rgb(130, 106, 251);
+  background: #fbe6e6;
 }
 .container {
   position: relative;
@@ -95,7 +95,7 @@ body {
   column-gap: 5px;
 }
 .role input {
-  accent-color: rgb(130, 106, 251);
+  accent-color: rgb(225, 104, 191);
 }
 .form :where(.role input, .role label) {
   cursor: pointer;
@@ -124,10 +124,10 @@ body {
   border: none;
   cursor: pointer;
   transition: all 0.2s ease;
-  background: rgb(130, 106, 251);
+  background: rgb(168, 38, 188);
 }
 .form button:hover {
-  background: rgb(88, 56, 250);
+  background: rgb(200, 130, 206);
 }
 /*Responsive*/
 @media screen and (max-width: 500px) {

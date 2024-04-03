@@ -7,7 +7,7 @@
 }
 body{
     font-family: montserrat;
-    background-color: #212121;
+    background-color: #fbe6e6;
 }
 /*
 nav{
@@ -24,14 +24,14 @@ label.logo{
     font-weight: bold;
 }*/
 nav {
-    background: #080003;
+    background: #2e0035;
     height: 13%; /* Fixed height */
     width: 100%; /* Adjusted width to occupy 80% of the screen */
     margin: 0 auto; /* Center the nav bar horizontally */
 }
 
 label.logo {
-    color: #ff7200;
+    color: #d454b0;
     font-size: 4vw; /* Adjusted font size using percentage of viewport width */
     line-height: 80px; /* Adjusted line-height */
     padding: 0 2%; /* Adjusted padding */
@@ -51,7 +51,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: rgb(247, 243, 243);
     font-size: 1.5vw; /* Adjusted font size using percentage of viewport width */
     border-radius: 5px;
     padding: 0 2%; /* Adjusted padding */
@@ -59,7 +59,7 @@ nav ul li a {
 }
 
 a.active, a:hover {
-    background: #ff7200;
+    background: #8a1e6b;
     transition: .5s;
 }
 
@@ -88,7 +88,7 @@ a.active,a:hover{
     width: 100%;
     max-width: 1200px;
     margin: auto;
-    color: white;
+    color: rgb(6, 6, 6);
     position: relative;
     padding: 0 20px; /* Add padding for smaller screens */
 }
@@ -135,7 +135,7 @@ a.active,a:hover{
 */
 
 .content span {
-    color: #ff7200;
+    color: #8a1e6b;
     font-size: 65px;
 }
 
@@ -234,7 +234,8 @@ nav ul li:last-child .profile img {
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    background-color: white; /* Set background color to white */
+    background-color: #fbe6e6;
+   /* background-color: white;  Set background color to white */
 }
 
 
@@ -285,7 +286,8 @@ nav ul li:last-child .profile img {
       justify-content: center;
       align-items: center;
       flex-direction: column;
-      background: #3e4e51;
+    background-color: #fbe6e6;
+   /* background: #3e4e51;*/
   }
   .wrapper h1{
       font-size: 3em;
@@ -308,7 +310,7 @@ nav ul li:last-child .profile img {
       justify-content: center;
       align-items: center;
       flex-direction: column;
-      background: #607d9a;
+      background: #f7a6e7;
       margin: 10px 4px;
       box-shadow: 0px 15px 30px rgba(0,0,0,0.2);
   }
@@ -330,7 +332,7 @@ nav ul li:last-child .profile img {
   
   .card i{
       margin: 20px;
-      color: #581ed6;
+      color: #ba55e2;
   }
   .card h2{
       margin-bottom: 12px;
