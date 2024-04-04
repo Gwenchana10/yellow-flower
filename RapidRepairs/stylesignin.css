@@ -9,7 +9,7 @@ body{
   font-style: normal;
 }
 /*background-image: url("https://www.vettedbiz.com/wp-content/uploads/2019/11/home-services.jpg");*/
-  background-color:  #fbe6e6;
+  background-color:  #fbfdfe;
 }
 
 form{
@@ -21,7 +21,7 @@ form{
   color:whitesmoke;
   backdrop-filter: blur(16px) saturate(180%);
   -webkit-backdrop-filter: blur(16px) saturate(180%);
-  background-color: rgba(189, 83, 185, 0.582);
+  background-color: rgba(173, 211, 235, 0.582);
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.125);
 }
@@ -78,7 +78,7 @@ button:hover {
 }
 
 .buttons button, .buttons a {
-  background-color: #ac22ae;
+  background-color: #6f81ca;
   color: white;
   padding: 10px 18px;
   border-radius: 5px;
