@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile</title>
+    <link rel="stylesheet" href="profilestyles.css">
+</head>
+<body>
+    <div class="profile" id="profile-section">
+        <img src="" alt="Profile Picture" class="profile-picture" id="profile-picture">
+        <div class="profile-info">
+            <h2 class="username" id="username"></h2>
+            <p class="email" id="email"></p>
+            <p class="bio" id="bio"></p>
+            <button id="edit-profile-btn">Edit Profile</button>
+        </div>
+    </div>
+
+    <div class="edit-profile-form" id="edit-profile-form">
+        <h2>Edit Profile</h2>
+        <form id="profile-form">
+            <label for="new-username">Username:</label>
+            <input type="text" id="new-username" name="new-username" required>
+            <label for="new-email">Email:</label>
+            <input type="email" id="new-email" name="new-email" required>
+            <label for="new-bio">Bio:</label>
+            <textarea id="new-bio" name="new-bio"></textarea>
+            <button type="submit">Save Changes</button>
+        </form>
+    </div>
+
+    <script src="profilescript.js"></script>
+</body>
+</html>
