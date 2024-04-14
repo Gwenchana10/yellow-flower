@@ -1,0 +1,92 @@
+h1{
+    text-align: center;
+  }
+  body{
+  .roboto-slab{
+    font-family: "Roboto Slab";
+    font-optical-sizing: auto;
+    font: weight 300px;;
+    font-style: normal;
+  }
+  background-image: url("https://www.vettedbiz.com/wp-content/uploads/2019/11/home-services.jpg");
+  }
+  
+  form{
+    font-size:20px;
+    width:60%;
+    padding-top:50px;
+    padding-left: 60px;
+    margin: auto;
+    color:whitesmoke;
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(11, 15, 13, 0.582);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+  }
+  
+  input{
+    width: 90%;
+    margin: 10px 0;
+    padding: 15px 18px;
+    box-sizing: border-box;
+  }
+  .subcontainer{
+   
+      display: flex;
+      flex-direction:row;
+      justify-content: space-between;
+      padding:20px;
+  }
+  /*
+  
+  .buttons  {
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    margin: 7px 30;
+    font-size: 18px;
+    padding-right:80px;
+    flex:1;
+  }
+  button{
+    background-color: #000000;
+    color: white;
+    padding: 17px 20px;
+    border-radius: 5px;
+    width:50%;
+  }
+  button:hover {
+    opacity: 0.6;
+    cursor: pointer;
+  }
+  */
+  
+  .buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 7px 10px; /* Adjusted margin */
+    font-size: 18px;
+    padding-right:80px;
+    flex:1;
+  }
+  
+  .buttons a {
+    text-decoration: none;
+  }
+  
+  .buttons button, .buttons a {
+    background-color: #000000;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 5px;
+    width: 50%; /* Adjusted width */
+    border: none;
+  }
+  
+  .buttons button:hover, .buttons a:hover 
+  {
+    opacity: 0.6;
+    cursor:pointer;
+  }
